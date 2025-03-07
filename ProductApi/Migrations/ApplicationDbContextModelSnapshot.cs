@@ -110,7 +110,7 @@ namespace ProductApi.Migrations
 
                     b.HasKey("ProductStatusId");
 
-                    b.ToTable("products", "fdotnet");
+                    b.ToTable("Products");
                 });
 #pragma warning restore 612, 618
         }

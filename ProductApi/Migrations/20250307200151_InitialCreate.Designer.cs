@@ -12,7 +12,7 @@ using ProductApi.Data;
 namespace ProductApi.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250307150518_InitialCreate")]
+    [Migration("20250307200151_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -112,7 +112,7 @@ namespace ProductApi.Migrations
 
                     b.HasKey("ProductStatusId");
 
-                    b.ToTable("products", "fdotnet");
+                    b.ToTable("Products");
                 });
 #pragma warning restore 612, 618
         }

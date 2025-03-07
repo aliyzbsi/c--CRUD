@@ -9,12 +9,8 @@ namespace ProductApi.Migrations
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.EnsureSchema(
-                name: "fdotnet");
-
             migrationBuilder.CreateTable(
-                name: "products",
-                schema: "fdotnet",
+                name: "Products",
                 columns: table => new
                 {
                     ProductStatusId = table.Column<long>(type: "bigint", nullable: false)
@@ -44,15 +40,14 @@ namespace ProductApi.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_products", x => x.ProductStatusId);
+                    table.PrimaryKey("PK_Products", x => x.ProductStatusId);
                 });
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "products",
-                schema: "fdotnet");
+                name: "Products");
         }
     }
 }

@@ -35,5 +35,7 @@
 /Users/aliyzbsi/git/c#-projects/ProductApi/obj/Debug/net6.0/ProductApi.pdb
 /Users/aliyzbsi/git/c#-projects/ProductApi/obj/Debug/net6.0/ProductApi.genruntimeconfig.cache
 /Users/aliyzbsi/git/c#-projects/ProductApi/obj/Debug/net6.0/ref/ProductApi.dll
+/Users/aliyzbsi/git/c#-projects/ProductApi/bin/Debug/net6.0/DotNetEnv.dll
+/Users/aliyzbsi/git/c#-projects/ProductApi/bin/Debug/net6.0/Sprache.dll
 /Users/aliyzbsi/git/c#-projects/ProductApi/bin/Debug/net6.0/Npgsql.dll
 /Users/aliyzbsi/git/c#-projects/ProductApi/bin/Debug/net6.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
