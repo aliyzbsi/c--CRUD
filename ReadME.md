@@ -51,7 +51,7 @@ ProductApi/
 ### Adım 1: Projeyi Klonlama
 
 ```shellscript
-git clone <repository-url>
+git clone https://github.com/aliyzbsi/c--CRUD
 cd ProductApi
 ```
 
